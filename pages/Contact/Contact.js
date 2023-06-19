@@ -9,9 +9,9 @@ export const renderContact = () => {
   main.innerHTML = `
   <section class="contactlist">
   <ul>
-  <li><a href="https://www.linkedin.com/in/penelopelabram/">LinkedIn <span class="material-symbols-outlined">north_east</span></a></li>
-  <li>GitHub <span class="material-symbols-outlined">north_east</span></li>
-  <li>Stack Overflow <span class="material-symbols-outlined">north_east</span></li>
+  <li><a href="https://www.linkedin.com/in/penelopelabram/" target="_blank">LinkedIn <span class="material-symbols-outlined">north_east</span></a></li>
+  <li><a href="https://github.com/plabram/" target="_blank">GitHub <span class="material-symbols-outlined">north_east</span></a></li>
+  <li><a href="https://stackoverflow.com/users/10071648/fpl" target="_blank">Stack Overflow <span class="material-symbols-outlined">north_east</span></a></li>
 </ul>
 <div class="contact-info">
 <h1>Penelope Labram</h1>
