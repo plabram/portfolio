@@ -6,6 +6,7 @@ import { Navbar } from './navbar/Navbar'
 import { renderHome } from './Home/Home'
 import { renderExperience } from './Experience/Experience'
 import {renderProjects } from './Projects/Projects'
+import {renderContact } from './Contact/Contact'
 
 const nav = document.querySelector("nav")
 nav.innerHTML = Navbar()
@@ -13,5 +14,6 @@ nav.innerHTML = Navbar()
 openLink("#homelink", renderHome)
 openLink("#experiencelink", renderExperience)
 openLink("#projectslink", renderProjects)
+openLink("#contactlink", renderContact)
 
 renderHome()
