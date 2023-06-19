@@ -1,5 +1,5 @@
 
-import { cleanPage } from "../utils/cleanPage"
+import { cleanPage } from "../../utils/cleanPage"
 import "./Contact.css"
 
 export const renderContact = () => {

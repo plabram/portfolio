@@ -1,4 +1,4 @@
-import { cleanPage } from "../utils/cleanPage"
+import { cleanPage } from "../../utils/cleanPage"
 import "./Home.css"
 
 export const renderHome = () => {

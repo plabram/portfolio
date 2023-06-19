@@ -2,11 +2,11 @@
 
 import './style.css'
 import { openLink } from './utils/openLink'
-import { Navbar } from './navbar/Navbar'
-import { renderHome } from './Home/Home'
-import { renderExperience } from './Experience/Experience'
-import {renderProjects } from './Projects/Projects'
-import {renderContact } from './Contact/Contact'
+import { Navbar } from './Navbar/Navbar'
+import { renderHome } from './Pages/Home/Home'
+import { renderExperience } from './Pages/Experience/Experience'
+import {renderProjects } from './Pages/Projects/Projects'
+import {renderContact } from './Pages/Contact/Contact'
 
 const nav = document.querySelector("nav")
 nav.innerHTML = Navbar()

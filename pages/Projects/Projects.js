@@ -1,4 +1,4 @@
-import { cleanPage } from "../utils/cleanPage"
+import { cleanPage } from "../../utils/cleanPage"
 import "./Projects.css"
 
 export const renderProjects = () => {
@@ -7,5 +7,4 @@ export const renderProjects = () => {
   main.innerHTML = `
   Projects here
   `
-
 }
