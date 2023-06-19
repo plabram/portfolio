@@ -1,7 +1,9 @@
+import { cleanPage } from "../utils/cleanPage"
 import "./Home.css"
 
 export const renderHome = () => {
   const main = document.querySelector("main")
+  cleanPage(main)
   main.innerHTML = `
   <h1>Penelope Labram</h1>
   <h2>Full Stack Engineer</h2>
