@@ -2,14 +2,17 @@
 
 import './style.css'
 import { openLink } from './utils/openLink'
-import { Navbar } from './Navbar/Navbar'
-import { renderHome } from './Pages/Home/Home'
-import { renderExperience } from './Pages/Experience/Experience'
-import {renderProjects } from './Pages/Projects/Projects'
-import {renderContact } from './Pages/Contact/Contact'
+import { Header } from './components/Header/Header'
+import { Navbar } from './components/Navbar/Navbar'
+import { renderHome } from './pages/Home/Home'
+import { renderExperience } from './pages/Experience/Experience'
+import { renderProjects } from './pages/Projects/Projects'
+import { renderContact } from './pages/Contact/Contact'
 
 const nav = document.querySelector("nav")
 nav.innerHTML = Navbar()
+const header = document.querySelector("header")
+header.innerHTML = Header()
 
 openLink("#homelink", renderHome)
 openLink("#experiencelink", renderExperience)

@@ -1,12 +1,12 @@
 nav {
   position: fixed;
-  /* padding-top: calc(100vh - 10em); */
   bottom: 1em;
+  margin-left: calc(50vw - 170px);
+  width: 340px;
 }
 
-ul {
+nav > ul {
   display: flex;
-  width: 340px;
   height: 3em;
   padding: 4px 20px;
   flex-direction: row;
@@ -16,15 +16,14 @@ ul {
   background-color: var(--light);
   opacity: 0.88;
   border-radius: 5px;
-  margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 0.8em;
   box-shadow: var(--dark) 0px 1px 4px 0px;
 }
 
-a {
+.navlink {
   color: var(--dark);
   }
 
-a:visited {
+.navlink:visited {
   color: var(--dark);
   }

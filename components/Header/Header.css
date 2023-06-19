@@ -1,0 +1,20 @@
+header {
+  position: sticky;
+  padding: 20px 0 20px 0;
+}
+
+header > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 5px;
+  padding: 4px 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header > ul, .material-symbols-outlined {
+  font-size: 0.8em;
+  color: var(--mid);
+}
