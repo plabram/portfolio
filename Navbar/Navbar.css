@@ -1,0 +1,29 @@
+nav {
+  position: sticky;
+  padding-top: calc(100vh - 5em);
+}
+
+ul {
+  display: flex;
+  width: 340px;
+  height: 3em;
+  padding: 4px 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: var(--light);
+  opacity: 0.88;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  box-shadow: var(--dark) 0px 1px 4px 0px;
+}
+
+a {
+  color: var(--dark);
+  }
+
+a:visited {
+  color: var(--dark);
+  }
