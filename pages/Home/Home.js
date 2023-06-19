@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header/Header"
 import { cleanPage } from "../../utils/cleanPage"
 import "./Home.css"
 
@@ -7,10 +6,18 @@ export const renderHome = () => {
   cleanPage(main)
   main.innerHTML = `
   <section class="home">
+  <div class="home-info">
   <h1>Penelope Labram</h1>
   <h2>Full Stack Engineer</h2>
+  </div>
   <img src="./assets/photo.png" />
-  <p>Full stack engineer and ex-product person with over a decade's experience in building technical solutions.</p>
+  <div class="quote">
+    <q><p>Here is a quote about Penelope.</p></q>
+    <p>Team Member, ABC Company</p>
+  </div>
+  <div>
+  <p>Full stack engineer and ex-product person with over a decade's experience building technical solutions.</p>
   </section>
+  </div>
   `
 }

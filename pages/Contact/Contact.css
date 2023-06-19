@@ -1,3 +1,35 @@
 .contactlist {
-  padding: 0;
+  animation: appear 3s;
+}
+
+.contactlist > ul {
+  font-size: 1.4em;
+  gap: 10px;
+}
+
+.contactlist > ul > li {
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin: 60px 0 0 40px;
+}
+
+@media screen and (min-width: 850px) {
+
+  .contactlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "info links"
+  ;
+
+  .contactlist > ul {
+    grid-area: links;
+  }
+
+  .contact-info {
+    grid-area: info;
+  }  
+  }
 }

@@ -1,4 +1,3 @@
-
 import { cleanPage } from "../../utils/cleanPage"
 import "./Contact.css"
 
@@ -8,11 +7,16 @@ export const renderContact = () => {
   cleanPage(main)
   cleanPage(header)
   main.innerHTML = `
-  <ul class="contactlist">
-  <li><a href="home" id="homelink" class="contactlink">Home</a></li>
-  <li><a href="projects" id="projectslink" class="contactlink">Projects</a></li>
-  <li><a href="experience" id="experiencelink" class="contactlink">Experience</a></li>
-  <li><a href="contact" id="contactlink" class="contactlink">Contact</a></li>
+  <section class="contactlist">
+  <ul>
+  <li><a href="https://www.linkedin.com/in/penelopelabram/">LinkedIn <span class="material-symbols-outlined">north_east</span></a></li>
+  <li>GitHub <span class="material-symbols-outlined">north_east</span></li>
+  <li>Stack Overflow <span class="material-symbols-outlined">north_east</span></li>
 </ul>
+<div class="contact-info">
+<h1>Penelope Labram</h1>
+  <h2>Full Stack Engineer</h2>
+  </div>
+</section>
   `
 }

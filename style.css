@@ -25,6 +25,7 @@
 
 h1, h2 {
   font-size: 2em;
+  line-height: 1em;
 }
 
 h2 {
@@ -38,3 +39,34 @@ h1, h2, p {
 a {
   text-decoration: none;
 }
+
+li {
+  list-style-type: none;
+}
+
+q:before,q:after{content:''}
+
+.quote {
+  margin: 20px 0 40px 20px;
+  display: inline-block;
+}
+
+.quote > q {
+ font-size: 1.2em;
+}
+
+.quote > q > p::first-letter {
+  font-size: 1.6em;
+}
+
+.quote > p {
+  color: var(--mid);
+  font-size: 0.8em
+}
+
+@keyframes appear {
+  from {
+opacity: 0; }
+  to {
+    opacity: 1;
+} }
