@@ -6,12 +6,10 @@ const links = ["Home", "Projects", "About", "Contact"]
 // export const Navbar = () => makeNavbar()
 
 export const Navbar = () => `
-<nav>
   <ul>
     <li><a href="home" id="homelink">${links[0]}</a></li>
     <li><a href="project" id="projectlink">${links[1]}</a></li>
     <li><a href="about" id="aboutlink">${links[2]}</a></li>
     <li><a href="contact" id="contactlink">${links[3]}</a></li>
   </ul>
-</nav>
 `

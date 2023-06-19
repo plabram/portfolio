@@ -3,21 +3,11 @@
 import './style.css'
 import { openLink } from './utils/openLink'
 import { Navbar } from './navbar/Navbar'
-import { Home } from './Home/Home'
+import { renderHome } from './Home/Home'
 
-const body = document.querySelector("body")
-body.innerHTML = Navbar()
+const nav = document.querySelector("nav")
+nav.innerHTML = Navbar()
 
-openLink("#homelink", Home)
+openLink("#homelink", renderHome)
 
-// Home()
-
-// export const openLink = (id, page) => {
-//   const link = document.querySelector(id)
-//   link.addEventListener('click', (ev) => {
-//     ev.preventDefault();
-//     const linkHref = ev.target.href;
-//     page()
-//     console.log('El link apunta a:', linkHref );
-//   })
-// }
+renderHome()

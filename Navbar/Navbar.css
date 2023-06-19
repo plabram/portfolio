@@ -1,6 +1,7 @@
 nav {
-  position: sticky;
-  padding-top: calc(100vh - 5em);
+  position: fixed;
+  /* padding-top: calc(100vh - 10em); */
+  bottom: 1em;
 }
 
 ul {

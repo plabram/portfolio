@@ -7,6 +7,7 @@
   /* color: rgba(255, 255, 255, 0.87); */
   --dark: rgba(0, 0, 0, 0.24);
   --light: rgb(246,246,246);
+  --mid: rgb(136, 136, 136);
   background-color: #1f1f1f;
 
   font-synthesis: none;
@@ -14,10 +15,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  padding: 0 30px 0 30px;
 }
 
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+h1, h2 {
+  font-size: 2em;
+}
+
+h2 {
+  color: var(--mid);
+}
+
+h1, h2, p {
+  font-weight: 350;
 }

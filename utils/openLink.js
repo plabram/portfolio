@@ -3,7 +3,7 @@ export const openLink = (id, page) => {
   link.addEventListener('click', (ev) => {
     ev.preventDefault();
     const linkHref = ev.target.href;
-    // page()
+    page()
     console.log('El link apunta a:', linkHref );
   })
 }
