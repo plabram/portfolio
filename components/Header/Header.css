@@ -13,7 +13,8 @@ header > ul {
   flex-wrap: wrap;
 }
 
-header > ul, .material-symbols-outlined {
+header a,
+.material-symbols-outlined {
   font-size: 0.8em;
   color: var(--mid);
 }
