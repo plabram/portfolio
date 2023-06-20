@@ -21,9 +21,9 @@ export const projects = [
     title: "Rick & Morty Lazy Loading",
     description:
       "A lazy loading solution that pulls characters from the Rick & Morty API as the user scrolls down the page.",
-    image: "",
+    image: "./assets/rick-and-morty.png",
     link: "",
     stack: "JavaScript",
     public: true
   }
-];
+]

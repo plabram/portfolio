@@ -18,5 +18,13 @@
 
 .stack {
   color: var(--mid);
-  font-size: 1.2em;
+  font-size: 0.8em;
+  margin: 5px 0 5px 0;
+}
+
+@media screen and (min-width: 850px) {
+  .project-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 }

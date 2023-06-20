@@ -1,0 +1,33 @@
+.experience-card {
+  margin: 30px 30px 30px 30px;
+}
+
+.responsibilities-list > li {
+  list-style-type: disc;
+  margin-left: 0;
+  list-style-position: outside;
+}
+
+.divider {
+  border-bottom: 1px solid var(--mid);
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin: 1rem 0;
+  margin: 40px 0 40px 0;
+}
+
+.date {
+  font-style: italic;
+}
+
+h4 {
+  color: var(--mid);
+}
+
+/* <div>
+<h3>${exp.role}</h3>
+<h4>${exp.company}</h4>
+<p>${exp.dates}</p>
+<div>${exp.responsibilities}</div>
+</div> */

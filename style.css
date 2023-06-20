@@ -73,6 +73,10 @@ q:after {
   font-size: 0.8em;
 }
 
+img {
+  border-radius: 5px;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
