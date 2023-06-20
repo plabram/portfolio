@@ -16,13 +16,11 @@
 }
 
 @media screen and (min-width: 850px) {
-
   .contactlist {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "info links"
-  ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "info links";
+  }
 
   .contactlist > ul {
     grid-area: links;
@@ -30,6 +28,5 @@
 
   .contact-info {
     grid-area: info;
-  }  
   }
 }
