@@ -10,7 +10,15 @@
   padding: 10px;
 }
 
-.project-card > img {
+.project-card a {
+  color: var(--dark);
+}
+
+.project-card .a:visited {
+  color: var(--dark);
+}
+
+.project-card img {
   max-width: 300px;
   margin: auto;
   display: block;
