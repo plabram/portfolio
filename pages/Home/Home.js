@@ -10,7 +10,7 @@ export const renderHome = () => {
   <h1>Penelope Labram</h1>
   <h2>Full Stack Engineer</h2>
   </div>
-  <img src="./assets/photo.png" />
+  <img src="./assets/photo.png" alt="Penelope, Full Stack Engineer" />
   <div class="quote">
     <q><p>Here is a quote about Penelope.</p></q>
     <p>Team Member, ABC Company</p>
