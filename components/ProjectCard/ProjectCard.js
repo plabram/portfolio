@@ -6,5 +6,5 @@ export const projectCard = (project) => `
 <p class="stack">${project.stack}</p>
 <p>${project.description}</p>
 </div>
-<a href="${project.link}"><img src="${project.image}" alt="project.title" /></a>
+<a href="${project.link}" target="_blank"><img src="${project.image}" alt="project.title" /></a>
 `
